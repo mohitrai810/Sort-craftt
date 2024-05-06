@@ -1004,7 +1004,7 @@ if __name__ == '__main__':
       
       <h1 className="title"><div class='headd'>Sort Craft</div></h1>
       <p className="description" color='white'>
-        <i><div class="he">Here you can find explanations of various sorting algorithms such as Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, etc.</div>
+        <i><div class="he">Here you can find explanations of various sorting algorithms such as Bubble Sort, Selection Sort, Counting Sort, Merge Sort, Radix Sort, etc.</div>
         </i></p>
 
       {/* Buttons to select algorithm */}
