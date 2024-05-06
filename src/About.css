@@ -1,0 +1,66 @@
+/* styles.css */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d8cbcb;
+  }
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  .h {
+    font-size: 160%;
+    text-decoration: overline maroon;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin: 20px;
+    animation: slideInLeft ease 3s;
+  }
+  
+  .hh {
+    font-style: italic;
+    background-color:rgb(87, 59, 22);
+    color: white;
+    border: 4px solid rgb(9, 10, 9);
+    margin: 50px;
+    padding: 8px;
+  }
+  
+  .hhh {
+    text-decoration: underline;
+  }
+  
+  /* New rules */
+  .social-icon {
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  .social-icons {
+    text-align: center; /* Align the icons in the center */
+    margin-top: 20px; /* Adjust the top margin as needed */
+  }
+  
+  .social-icon {
+    margin: 0 10px; /* Adjust the horizontal margin between icons */
+  }
+  

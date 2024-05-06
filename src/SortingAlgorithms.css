@@ -1,0 +1,186 @@
+/* Add this to your SortingAlgorithms.css file */
+
+/* Background image for the entire page */
+body {
+  background-image: url("C:\Users\mohit\Downloads\3d-style-black-background-with-paper-layer\desmumtz13.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Background image for the sorting algorithms container */
+.sorting-algorithms-container {
+  color :#eee7e7;
+   /* Semi-transparent background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding */
+  animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+/* Algorithm description */
+.algorithm-description {
+  text-align: center;
+  margin-bottom: 30px; /* Add some spacing */
+}
+
+/* Algorithm text */
+.algorithm-text {
+  color: #f3e9e9; /* Adjust text color */
+}
+
+/* Time complexity list */
+.time-complexity-list {
+  color: #f5f3f3; /* Adjust text color */
+}
+
+/* Algorithm heading */
+.algorithm-heading {
+  font-size: 36px; /* Adjust font size */
+  font-weight: bold;
+  color: #f8f6f6; /* Adjust heading color */
+}
+
+/* Sorting array heading */
+.sorting-array-heading {
+  color: #eee7e7; /* Adjust heading color */
+}
+
+/* Algorithm steps heading */
+.algorithm-steps-heading {
+  color: #f3eded; /* Adjust heading color */
+}
+
+/* Algorithm steps */
+.algorithm-steps {
+  text-align: left; /* Align algorithm steps to the left */
+  color: #f5efef; /* Adjust text color */
+}
+
+/* Algorithm buttons */
+.algorithm-buttons {
+  text-align: center; /* Center align buttons */
+  margin-bottom: 20px; /* Add some spacing */
+}
+
+.algorithm-button {
+  background-color: #4CAF50; /* Green background */
+  border: none;
+  color: white;
+  padding: 10px 20px; /* Add padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px; /* Rounded corners */
+}
+
+.algorithm-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Language buttons */
+.language-buttons {
+  text-align: center; /* Center align buttons */
+  margin-bottom: 20px; /* Add some spacing */
+}
+
+.language-button {
+  background-color: #008CBA; /* Blue background */
+  border: none;
+  color: white;
+  padding: 10px 20px; /* Add padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px; /* Rounded corners */
+}
+
+.language-button:hover {
+  background-color: #005F6B; /* Darker blue on hover */
+}
+
+/* Code section */
+.code-section {
+  margin-top: 20px; /* Add some spacing */
+}
+
+/* Code blocks */
+.code-block {
+  background-color: #030000; /* Light gray background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Add padding */
+  overflow-x: auto; /* Add horizontal scrollbar if needed */
+}
+
+/* Add more animations as needed */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.ccc {
+  font-style: italic;
+  background-color: rgb(14, 14, 13);
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 5px;
+  
+}
+.algo {
+  
+  color: rgb(236, 177, 48);
+  font-size: 130%;
+}
+.headd {
+  text-decoration: overline maroon;
+  
+  text-align: center;
+  font-size: 150%;
+  animation: slideInLeft ease 3s;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  
+  50% {
+    transform: translateX(-50%);
+  
+  }
+  70% {
+    transform: translateX(-70%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.he {
+  text-shadow: 5px 5px 2px rgb(18, 19, 17);
+  text-underline-position: auto;
+  text-align: center;
+  font-size: 120%;
+  animation: slideinr ease 4s;
+}
+@keyframes slideinr {
+  0% {
+    transform: translateX(70%);
+  }
+  50% {
+    transform: translateX(500%);
+  }
+  1000% {
+    transform: translateX(0%);
+  }
+}
