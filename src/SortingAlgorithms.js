@@ -53,7 +53,7 @@ function SortingAlgorithms() {
           </div>
           
         );
-        break;
+      
         case 'countsort':
         return (
           <div className="algorithm-description">
@@ -86,7 +86,6 @@ function SortingAlgorithms() {
             </div>
           </div>
         );
-        break;
         case 'radixsort':
           return (
             <div className="algorithm-description">
@@ -120,7 +119,6 @@ function SortingAlgorithms() {
               </div>
             </div>
           );
-          break;
         
       case 'bubbleSort':
         return (
@@ -151,7 +149,6 @@ function SortingAlgorithms() {
               </ol>
           </div>
         );
-        break;
         case 'SelectionSort':
         return (
           <div className="algorithm-description">
@@ -184,7 +181,6 @@ function SortingAlgorithms() {
               </ol>
           </div>
         );
-        break;
         
       default:
         return null; // If no algorithm is selected, return null
