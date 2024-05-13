@@ -147,14 +147,13 @@ body {
   
   text-align: center;
   font-size: 150%;
-  animation: slideInLeft ease 3s;
+  animation: slideinl ease 3.5s;
 }
 
-@keyframes slideInLeft {
+@keyframes slideinl{
   0% {
     transform: translateX(-100%);
   }
-  
   50% {
     transform: translateX(-50%);
   
@@ -175,12 +174,16 @@ body {
 }
 @keyframes slideinr {
   0% {
-    transform: translateX(70%);
+    transform: translateX(100%);
+  
+  }
+  20%{
+    transform: translateX(80%);
   }
   50% {
-    transform: translateX(500%);
+    transform: translateX(120%);
   }
-  1000% {
+  100% {
     transform: translateX(0%);
   }
 }
