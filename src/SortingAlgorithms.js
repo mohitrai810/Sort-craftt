@@ -402,7 +402,7 @@ int main()
           );
         }
         break;
-
+        
 
       case 'Java':
         if (selectedAlgorithm === 'bubbleSort'){
@@ -767,9 +767,9 @@ class MergeSort {
           </pre>
         );
       }
-break;
+
       case 'Python':
-        if (selectedAlgorithm=="bubbleSort"){
+        if (selectedAlgorithm==="bubbleSort"){
 
         
         return (
@@ -810,7 +810,7 @@ if __name__ == "__main__":
 `}
           </pre>
         );}
-        if (selectedAlgorithm=="bubbleSort"){
+        if (selectedAlgorithm==="bubbleSort"){
 
         
           return (
@@ -852,7 +852,7 @@ print("Sorted Array in Ascending Order: ")
 print(data)`}
             </pre>
           );}
-        if (selectedAlgorithm=="radixsort"){
+        if (selectedAlgorithm==="radixsort"){
 
         
           return (
@@ -924,7 +924,7 @@ for i in range(len(arr)):
 `}
             </pre>
           );}
-        if (selectedAlgorithm=="SelectionSort"){
+        if (selectedAlgorithm==="SelectionSort"){
 
         
           return (
