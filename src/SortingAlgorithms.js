@@ -2,15 +2,14 @@ import React, { useState } from 'react';
 import './SortingAlgorithms.css'; // Import CSS file for additional styling
 function SortingAlgorithms() {
   const [selectedAlgorithm, setSelectedAlgorithm] = useState(null); // State to track selected algorithm
-  const [selectedLanguage, setSelectedLanguage] = useState(null); // State to track selected programming language
-  const [showLanguages, setShowLanguages] = useState(false); // State to track whether to show language buttons
+  const [selectedLanguage, setSelectedLanguage] = useState(null); // State to track selected programming langua State to track whether to show language buttons
 
   // Function to handle click on algorithm button
   const handleAlgorithmClick = (algorithm) => {
     setSelectedAlgorithm((prevAlgorithm) => (prevAlgorithm === algorithm ? null : algorithm));
-    setShowLanguages(algorithm === 'mergeSort'); // Show language buttons only when Merge Sort is clicked
+     // Show language buttons only when Merge Sort is clicked
   };
-
+  
   // Function to handle click n programming language button
   const handleLanguageClick = (language) => {
     // Only update the selected language
@@ -52,7 +51,9 @@ function SortingAlgorithms() {
               </ol>
             </div>
           </div>
+          
         );
+        break;
         case 'countsort':
         return (
           <div className="algorithm-description">
@@ -85,6 +86,7 @@ function SortingAlgorithms() {
             </div>
           </div>
         );
+        break;
         case 'radixsort':
           return (
             <div className="algorithm-description">
@@ -118,6 +120,7 @@ function SortingAlgorithms() {
               </div>
             </div>
           );
+          break;
         
       case 'bubbleSort':
         return (
@@ -138,7 +141,7 @@ function SortingAlgorithms() {
             <div className="algorithm-content">
               <h1 className="algorithm-heading">Bubble Sort</h1>
               <h3> <b>Sorting array of elements: 5, 3, 8, 4, 6</b></h3>
-              <img src='https://miro.medium.com/v2/resize:fit:776/1*7QsZkfrRGhAu5yxxeDdzsA.png'></img>
+              <img src='https://miro.medium.com/v2/resize:fit:776/1*7QsZkfrRGhAu5yxxeDdzsA.png' alt="Buble sort"></img>
             </div>
             <ol className="algorithm-steps">
                 <h3><div class='algo'>Algorithm :</div></h3>
@@ -148,6 +151,7 @@ function SortingAlgorithms() {
               </ol>
           </div>
         );
+        break;
         case 'SelectionSort':
         return (
           <div className="algorithm-description">
@@ -180,6 +184,7 @@ function SortingAlgorithms() {
               </ol>
           </div>
         );
+        break;
         
       default:
         return null; // If no algorithm is selected, return null
@@ -396,6 +401,8 @@ int main()
             </pre>
           );
         }
+        break;
+
 
       case 'Java':
         if (selectedAlgorithm === 'bubbleSort'){
@@ -760,7 +767,7 @@ class MergeSort {
           </pre>
         );
       }
-
+break;
       case 'Python':
         if (selectedAlgorithm=="bubbleSort"){
 
