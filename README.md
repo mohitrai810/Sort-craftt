@@ -12,7 +12,6 @@ Sort Craft Explainer is an interactive web application designed to help users un
 ## Technologies Used
 - **Frontend**: React.js
 - **Styling**: CSS3
-- **Animations**: React Spring
 - **Version Control**: Git, GitHub
 
 ## Installation
