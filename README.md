@@ -1,7 +1,7 @@
-# Sorting Algorithm Explainer
+# Sort Craft
 
 ## Project Overview
-Sorting Algorithm Explainer is an interactive web application designed to help users understand and visualize various sorting algorithms. The application demonstrates five fundamental sorting algorithms: Merge Sort, Bubble Sort, Insertion Sort, Counting Sort, and Radix Sort. Each algorithm is illustrated with step-by-step animations and detailed explanations to facilitate a deeper understanding of how they work.
+Sort Craft Explainer is an interactive web application designed to help users understand and visualize various sorting algorithms. The application demonstrates five fundamental sorting algorithms: Merge Sort, Bubble Sort, Insertion Sort, Counting Sort, and Radix Sort. Each algorithm is illustrated with step-by-step animations and detailed explanations to facilitate a deeper understanding of how they work.
 
 ## Features
 - **Visual Animations**: Step-by-step animations for each sorting algorithm.
